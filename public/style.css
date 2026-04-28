@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: white;
+}
+
+.container {
+  max-width: 520px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* HEADER */
+.header {
+  background: rgba(255,255,255,0.06);
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  backdrop-filter: blur(10px);
+}
+
+.balance {
+  font-size: 30px;
+  color: #22c55e;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* SPEND */
+.spendBox {
+  margin-top: 15px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 60%;
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 5px;
+  background: #3b82f6;
+  color: white;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+/* WEEK CARDS */
+.card {
+  background: rgba(255,255,255,0.06);
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 14px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.title {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.status {
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.done {
+  color: #22c55e;
+}
+
+.pending {
+  color: #facc15;
+}
+
+.weekBtn {
+  margin-top: 10px;
+  background: #10b981;
+}
+
+.weekBtn:hover {
+  background: #059669;
+}
